@@ -1,3 +1,3 @@
 # ObtenerISBN4
 
-Guardar y borrar libros
+Guardar y borrar libros (swipe a la izquierda)
