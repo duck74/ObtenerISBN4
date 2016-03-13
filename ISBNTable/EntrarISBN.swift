@@ -16,6 +16,10 @@ class EntrarISBN: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var buscarButton: UIButton!
     @IBOutlet weak var entrarISBNText: UITextField!
     
+    @IBAction func cancelar(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+    }
     @IBAction func buscarISBN(sender: AnyObject) {
         
         ISBNbuscar = entrarISBNText.text
@@ -73,6 +77,7 @@ class EntrarISBN: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func unwindToVC(segue: UIStoryboardSegue) {
+        
     }
     
     /*
